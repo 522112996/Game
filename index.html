@@ -320,7 +320,7 @@ const adBreak =  function(o) {adsbygoogle.push(o);}
       document.body.appendChild(domScript);
     }
 
-    loadScript(debug ? 'cocos2d-js.js' : 'https://www.mutegame.com/170/cocos2d-js-min.js', function () {
+    loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js', function () {
       if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
         loadScript(debug ? 'physics.js' : 'physics-min.js', window.boot);
       }
